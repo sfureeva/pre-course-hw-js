@@ -2,9 +2,9 @@ const words = ["яблоко", "банан", "апельсин", "манго", "
 
 const message = words.indexOf("апельсин"); 
   if (message >= 0) {
-    console.log("«Ура! нашел»");
+    console.log("Ура! нашел");
 } else  {
-  console.log("«Придется поискать в другом магазине…»");
+  console.log("Придется поискать в другом магазине…");
 }
 
 
