@@ -71,7 +71,7 @@ const users2 = users.filter(function (element) {
 //        address: '975 Birch St'
 //    },
 
-    console.log(element);
+
     return element.id % 2 === 0;
   });
 
