@@ -43,5 +43,5 @@ const users3 = [
   users3.forEach(function(item) {
     item.isMarried = true
   });
-  
-  console.log(users3);
+
+  console.log(users3); 
