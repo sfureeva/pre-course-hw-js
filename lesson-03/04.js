@@ -62,7 +62,7 @@ const users = [
 ];
 /* Выведи в консоль массив с объектами у которых четная id при помощи метода filter */
 
-const users2 = users.filter(function (element) {
+const users3 = users.filter(function (element) {
     // тут приходит элемент массива:
 // {
 //        id: 8,
@@ -75,4 +75,4 @@ const users2 = users.filter(function (element) {
     return element.id % 2 === 0;
   });
 
-console.log(users2)
+console.log(users3)
